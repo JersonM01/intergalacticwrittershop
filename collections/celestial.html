@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Celestial — Intergalactic Writter Shop</title>
+<meta name="description" content="Développement personnel et spiritualité. Lisez gratuitement les premières pages, puis accédez au livre complet.">
+<link rel="icon" href="../assets/images/logo-circular.png">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/2.44.0/tabler-icons.min.css">
+<style>
+.coll-hero{background:var(--c-celestial-bg); border-bottom:0.5px solid var(--border);}
+.coll-hero .coll-icon-lg{width:64px; height:64px; border-radius:50%; background:rgba(255,255,255,0.08); border:1px solid var(--c-celestial); display:flex; align-items:center; justify-content:center; margin-bottom:24px;}
+.coll-hero .coll-icon-lg i{color:var(--c-celestial); font-size:28px;}
+
+.book-card{display:grid; grid-template-columns:220px 1fr; gap:32px; padding:32px;}
+@media (max-width:700px){ .book-card{grid-template-columns:1fr;} }
+.excerpt-box{border:0.5px dashed var(--border-strong); border-radius:4px; padding:18px; margin:18px 0; background:var(--bg-2);}
+.excerpt-box .label-row{display:flex; align-items:center; gap:8px; margin-bottom:8px; color:var(--c-celestial); font-size:0.78rem; letter-spacing:0.05em; text-transform:uppercase;}
+.buy-row{display:flex; align-items:center; gap:14px; flex-wrap:wrap; margin-top:18px;}
+.price{font-family:var(--font-display); font-size:1.6rem; font-style:italic; color:var(--gold-light);}
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="wrap">
+    <a href="../index.html" class="brand"><img src="../assets/images/logo-compact.png" alt="Intergalactic Writter Shop"></a>
+    <ul class="nav-links">
+      <li><a href="celestial.html">Collections</a></li>
+      <li><a href="../musee-spatial.html">Musée spatial</a></li>
+      <li><a href="fossile.html">Fossile de l'humanité</a></li>
+      <li><a href="../manifeste.html">Manifeste</a></li>
+      <li><a href="../a-propos.html">À propos</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <button class="btn-ghost" type="button" title="Bientôt disponible">Obtenir mon token</button>
+      <button class="btn-ghost" type="button" title="Bientôt disponible">Download roadmap</button>
+    </div>
+    <button class="nav-toggle" aria-label="Ouvrir le menu"><i class="ti ti-menu-2"></i></button>
+  </div>
+</nav>
+
+<header class="coll-hero collection-hero">
+  <div class="wrap">
+    <span class="coll-icon-lg"><i class="ti ti-moon-stars"></i></span>
+    <span class="collection-tag" style="border-color:var(--c-celestial); color:var(--c-celestial);"><span class="dot" style="background:var(--c-celestial);"></span>Boutique ouverte</span>
+    <h1 style="font-size:clamp(2.2rem,4.5vw,3.2rem);">Celestial</h1>
+    <p style="max-width:560px; margin-top:16px;">Des textes de développement personnel et de spiritualité, choisis pour accompagner l'élévation intérieure du lecteur — nos deux premiers artefacts sont déjà disponibles.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="section-header">
+      <span class="eyebrow">Catalogue</span>
+      <h2>Deux capsules temporelles, prêtes à ouvrir</h2>
+    </div>
+
+    <div style="display:flex; flex-direction:column; gap:28px;">
+
+      <article class="card book-card">
+        <div class="book-cover" style="background:var(--c-celestial-bg);"><i class="ti ti-moon-stars" style="font-size:48px; color:var(--c-celestial);"></i></div>
+        <div>
+          <h3>Titre du premier livre Celestial</h3>
+          <p style="margin-top:8px;">Résumé à venir — décrivez ici en deux ou trois phrases la transformation que ce livre propose au lecteur, dans l'esprit spirituel et introspectif de la collection.</p>
+
+          <div class="excerpt-box">
+            <div class="label-row"><i class="ti ti-book" style="font-size:15px;"></i> Aperçu gratuit — 3 à 4 premières pages</div>
+            <p class="small-muted">Emplacement réservé à l'intégration Heyzine (livre feuilletable). Remplacez ce bloc par l'iframe d'embed fourni par Heyzine une fois le flipbook publié.</p>
+          </div>
+
+          <form data-stub>
+            <div class="field">
+              <label for="email-book1">Recevoir l'extrait gratuit par email</label>
+              <input type="email" id="email-book1" placeholder="votre@email.com" required>
+            </div>
+            <button type="submit" class="btn btn-outline">Recevoir l'extrait</button>
+            <div class="form-success">Merci — l'extrait et l'offre d'achat vous seront envoyés par email.</div>
+          </form>
+
+          <div class="buy-row">
+            <span class="price">9,90 €</span>
+            <a href="https://gumroad.com/l/REMPLACER-PAR-VOTRE-LIEN" target="_blank" rel="noopener" class="btn btn-primary">Acheter le livre complet</a>
+          </div>
+          <div class="payment-icons" style="margin-top:14px;">
+            <span class="pay-badge">Visa</span>
+            <span class="pay-badge">Mastercard</span>
+            <span class="pay-badge">MoMo</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card book-card">
+        <div class="book-cover" style="background:var(--c-celestial-bg);"><i class="ti ti-moon-stars" style="font-size:48px; color:var(--c-celestial);"></i></div>
+        <div>
+          <h3>Titre du second livre Celestial</h3>
+          <p style="margin-top:8px;">Résumé à venir — décrivez ici la promesse du second ouvrage de la collection.</p>
+
+          <div class="excerpt-box">
+            <div class="label-row"><i class="ti ti-book" style="font-size:15px;"></i> Aperçu gratuit — 3 à 4 premières pages</div>
+            <p class="small-muted">Emplacement réservé à l'intégration Heyzine pour ce second titre.</p>
+          </div>
+
+          <form data-stub>
+            <div class="field">
+              <label for="email-book2">Recevoir l'extrait gratuit par email</label>
+              <input type="email" id="email-book2" placeholder="votre@email.com" required>
+            </div>
+            <button type="submit" class="btn btn-outline">Recevoir l'extrait</button>
+            <div class="form-success">Merci — l'extrait et l'offre d'achat vous seront envoyés par email.</div>
+          </form>
+
+          <div class="buy-row">
+            <span class="price">9,90 €</span>
+            <a href="https://gumroad.com/l/REMPLACER-PAR-VOTRE-LIEN" target="_blank" rel="noopener" class="btn btn-primary">Acheter le livre complet</a>
+          </div>
+          <div class="payment-icons" style="margin-top:14px;">
+            <span class="pay-badge">Visa</span>
+            <span class="pay-badge">Mastercard</span>
+            <span class="pay-badge">MoMo</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="wrap" style="max-width:720px;">
+    <span class="eyebrow">Vous écrivez ?</span>
+    <h2 style="margin-top:14px;">Soumettre un manuscrit pour Celestial</h2>
+    <p style="margin-top:14px;">Si votre texte accompagne le développement personnel ou spirituel de son lecteur, proposez-le à cette collection.</p>
+
+    <form data-stub class="mt-lg">
+      <div class="field"><label for="c-name">Nom de l'auteur</label><input type="text" id="c-name" required></div>
+      <div class="field"><label for="c-email">Email</label><input type="email" id="c-email" required></div>
+      <div class="field"><label for="c-title">Titre du manuscrit</label><input type="text" id="c-title" required></div>
+      <div class="field"><label for="c-synopsis">Synopsis</label><textarea id="c-synopsis" required></textarea></div>
+      <button type="submit" class="btn btn-primary">Soumettre pour Celestial</button>
+      <div class="form-success">Votre soumission a bien été reçue pour la collection Celestial.</div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <img src="../assets/images/logo-compact.png" alt="Intergalactic Writter Shop" style="height:44px; margin-bottom:14px;">
+        <p class="small-muted">Building the first space library.</p>
+      </div>
+      <div>
+        <h4>Collections</h4>
+        <a href="fossile.html">Fossile de l'humanité</a>
+        <a href="celestial.html">Celestial</a>
+        <a href="jeunesse.html">Jeunesse</a>
+        <a href="education.html">Éducation adultes</a>
+        <a href="starter.html">Starter</a>
+      </div>
+      <div>
+        <h4>Le projet</h4>
+        <a href="../musee-spatial.html">Musée spatial</a>
+        <a href="../manifeste.html">Manifeste</a>
+        <a href="../a-propos.html">Comment ça marche</a>
+        <a href="../contact.html">Contact</a>
+      </div>
+      <div>
+        <h4>Paiement sécurisé via Gumroad</h4>
+        <div class="payment-icons">
+          <span class="pay-badge">Visa</span>
+          <span class="pay-badge">Mastercard</span>
+          <span class="pay-badge">MoMo</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Intergalactic Writter Shop. Tous droits réservés.</p>
+      <p class="small-muted">Site en construction progressive.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

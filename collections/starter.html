@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Starter — Intergalactic Writter Shop</title>
+<meta name="description" content="Un espace dédié aux écrivains débutants.">
+<link rel="icon" href="../assets/images/logo-circular.png">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/2.44.0/tabler-icons.min.css">
+<style>
+.coll-hero{background:var(--c-starter-bg); border-bottom:0.5px solid var(--border);}
+.coll-hero .coll-icon-lg{width:64px; height:64px; border-radius:50%; background:rgba(255,255,255,0.08); border:1px solid var(--c-starter); display:flex; align-items:center; justify-content:center; margin-bottom:24px;}
+.coll-hero .coll-icon-lg i{color:var(--c-starter); font-size:28px;}
+.empty-state{border:0.5px dashed var(--border-strong); border-radius:6px; padding:56px 32px; text-align:center;}
+.empty-state i{font-size:36px; color:var(--c-starter); margin-bottom:16px; display:inline-block;}
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="wrap">
+    <a href="../index.html" class="brand"><img src="../assets/images/logo-compact.png" alt="Intergalactic Writter Shop"></a>
+    <ul class="nav-links">
+      <li><a href="celestial.html">Collections</a></li>
+      <li><a href="../musee-spatial.html">Musée spatial</a></li>
+      <li><a href="fossile.html">Fossile de l'humanité</a></li>
+      <li><a href="../manifeste.html">Manifeste</a></li>
+      <li><a href="../a-propos.html">À propos</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <button class="btn-ghost" type="button" title="Bientôt disponible">Obtenir mon token</button>
+      <button class="btn-ghost" type="button" title="Bientôt disponible">Download roadmap</button>
+    </div>
+    <button class="nav-toggle" aria-label="Ouvrir le menu"><i class="ti ti-menu-2"></i></button>
+  </div>
+</nav>
+
+<header class="coll-hero collection-hero">
+  <div class="wrap">
+    <span class="coll-icon-lg"><i class="ti ti-feather"></i></span>
+    <span class="collection-tag" style="border-color:var(--c-starter); color:var(--c-starter);"><span class="dot" style="background:var(--c-starter);"></span>Collection en cours d'enrichissement</span>
+    <h1 style="font-size:clamp(2.2rem,4.5vw,3.2rem);">Starter</h1>
+    <p style="max-width:560px; margin-top:16px;">Un espace pensé pour accompagner les écrivains qui publient leur tout premier texte.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="empty-state">
+      <i class="ti ti-feather"></i>
+      <h3>Cette collection s'écrit encore</h3>
+      <p class="small-muted mt-lg" style="max-width:420px; margin-left:auto; margin-right:auto;">Les premiers titres de Starter arrivent bientôt. Revenez prochainement, ou proposez votre propre manuscrit ci-dessous.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="wrap" style="max-width:720px;">
+    <span class="eyebrow">Vous écrivez ?</span>
+    <h2 style="margin-top:14px;">Soumettre un manuscrit pour Starter</h2>
+    <p style="margin-top:14px;">Vous publiez votre premier texte ? Cette collection est faite pour vous accompagner dans ce premier pas.</p>
+
+    <form data-stub class="mt-lg">
+      <div class="field"><label for="s-name">Nom de l'auteur</label><input type="text" id="s-name" required></div>
+      <div class="field"><label for="s-email">Email</label><input type="email" id="s-email" required></div>
+      <div class="field"><label for="s-title">Titre du manuscrit</label><input type="text" id="s-title" required></div>
+      <div class="field"><label for="s-synopsis">Synopsis</label><textarea id="s-synopsis" required></textarea></div>
+      <button type="submit" class="btn btn-primary">Soumettre pour Starter</button>
+      <div class="form-success">Votre soumission a bien été reçue pour la collection Starter.</div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <img src="../assets/images/logo-compact.png" alt="Intergalactic Writter Shop" style="height:44px; margin-bottom:14px;">
+        <p class="small-muted">Building the first space library.</p>
+      </div>
+      <div>
+        <h4>Collections</h4>
+        <a href="fossile.html">Fossile de l'humanité</a>
+        <a href="celestial.html">Celestial</a>
+        <a href="jeunesse.html">Jeunesse</a>
+        <a href="education.html">Éducation adultes</a>
+        <a href="starter.html">Starter</a>
+      </div>
+      <div>
+        <h4>Le projet</h4>
+        <a href="../musee-spatial.html">Musée spatial</a>
+        <a href="../manifeste.html">Manifeste</a>
+        <a href="../a-propos.html">Comment ça marche</a>
+        <a href="../contact.html">Contact</a>
+      </div>
+      <div>
+        <h4>Paiement sécurisé via Gumroad</h4>
+        <div class="payment-icons">
+          <span class="pay-badge">Visa</span>
+          <span class="pay-badge">Mastercard</span>
+          <span class="pay-badge">MoMo</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Intergalactic Writter Shop. Tous droits réservés.</p>
+      <p class="small-muted">Site en construction progressive.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

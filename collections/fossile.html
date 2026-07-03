@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fossile de l'humanité — Intergalactic Writter Shop</title>
+<meta name="description" content="Manuscrits et artefacts collectés pour une mission spatiale entre 2030 et 2040. Soumettez votre contribution au Fossile de l'Humanité.">
+<link rel="icon" href="../assets/images/logo-circular.png">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/2.44.0/tabler-icons.min.css">
+<style>
+.coll-hero{background:var(--c-fossile-bg); border-bottom:0.5px solid var(--border);}
+.coll-hero .coll-icon-lg{width:64px; height:64px; border-radius:50%; background:rgba(255,255,255,0.08); border:1px solid var(--c-fossile); display:flex; align-items:center; justify-content:center; margin-bottom:24px;}
+.coll-hero .coll-icon-lg i{color:var(--c-fossile); font-size:28px;}
+.mission-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:24px;}
+@media (max-width:800px){ .mission-grid{grid-template-columns:1fr;} }
+.mission-grid .card i{font-size:26px; color:var(--c-fossile); margin-bottom:14px; display:inline-block;}
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="wrap">
+    <a href="../index.html" class="brand"><img src="../assets/images/logo-compact.png" alt="Intergalactic Writter Shop"></a>
+    <ul class="nav-links">
+      <li><a href="celestial.html">Collections</a></li>
+      <li><a href="../musee-spatial.html">Musée spatial</a></li>
+      <li><a href="fossile.html">Fossile de l'humanité</a></li>
+      <li><a href="../manifeste.html">Manifeste</a></li>
+      <li><a href="../a-propos.html">À propos</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <button class="btn-ghost" type="button" title="Bientôt disponible">Obtenir mon token</button>
+      <button class="btn-ghost" type="button" title="Bientôt disponible">Download roadmap</button>
+    </div>
+    <button class="nav-toggle" aria-label="Ouvrir le menu"><i class="ti ti-menu-2"></i></button>
+  </div>
+</nav>
+
+<header class="coll-hero collection-hero">
+  <div class="wrap">
+    <span class="coll-icon-lg"><i class="ti ti-bone"></i></span>
+    <span class="collection-tag" style="border-color:var(--c-fossile); color:var(--c-fossile);"><span class="dot" style="background:var(--c-fossile);"></span>Mission 2030 — 2040</span>
+    <h1 style="font-size:clamp(2.2rem,4.5vw,3.2rem);">Fossile de l'humanité</h1>
+    <p style="max-width:600px; margin-top:16px;">Une collection de manuscrits et d'artefacts choisis par leurs auteurs pour parler directement à une génération qui nous lira dans mille ans — au-delà des frontières et des jugements de notre époque.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <div class="mission-grid">
+      <div class="card"><i class="ti ti-pencil"></i><h3>1. Vous soumettez</h3><p style="margin-top:8px; font-size:0.9rem;">Un manuscrit, un texte ou un artefact accompagné de sa description.</p></div>
+      <div class="card"><i class="ti ti-check"></i><h3>2. Nous sélectionnons</h3><p style="margin-top:8px; font-size:0.9rem;">Les contributions retenues rejoignent la collection et reçoivent un badge de reconnaissance.</p></div>
+      <div class="card"><i class="ti ti-rocket"></i><h3>3. Direction l'espace</h3><p style="margin-top:8px; font-size:0.9rem;">Les artefacts sélectionnés embarquent dans une mission spatiale entre 2030 et 2040.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section-alt">
+  <div class="wrap" style="max-width:720px;">
+    <span class="eyebrow">Contribuer</span>
+    <h2 style="margin-top:14px;">Soumettre une contribution</h2>
+    <p style="margin-top:14px;">Décrivez votre manuscrit ou votre artefact. Vous pourrez joindre une photo ou un fichier une fois votre soumission validée par notre équipe.</p>
+
+    <form data-stub class="mt-lg">
+      <div class="field"><label for="f-name">Nom du contributeur</label><input type="text" id="f-name" required></div>
+      <div class="field"><label for="f-email">Email</label><input type="email" id="f-email" required></div>
+      <div class="field"><label for="f-type">Type de contribution</label>
+        <select id="f-type">
+          <option>Manuscrit</option>
+          <option>Livre déjà publié</option>
+          <option>Artefact photographique</option>
+          <option>Autre objet symbolique</option>
+        </select>
+      </div>
+      <div class="field"><label for="f-desc">Description — pourquoi ce message pour dans 1000 ans ?</label><textarea id="f-desc" required></textarea></div>
+      <button type="submit" class="btn btn-primary">Soumettre au Fossile de l'humanité</button>
+      <div class="form-success">Merci — votre contribution a bien été reçue et sera examinée par notre équipe.</div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <img src="../assets/images/logo-compact.png" alt="Intergalactic Writter Shop" style="height:44px; margin-bottom:14px;">
+        <p class="small-muted">Building the first space library.</p>
+      </div>
+      <div>
+        <h4>Collections</h4>
+        <a href="fossile.html">Fossile de l'humanité</a>
+        <a href="celestial.html">Celestial</a>
+        <a href="jeunesse.html">Jeunesse</a>
+        <a href="education.html">Éducation adultes</a>
+        <a href="starter.html">Starter</a>
+      </div>
+      <div>
+        <h4>Le projet</h4>
+        <a href="../musee-spatial.html">Musée spatial</a>
+        <a href="../manifeste.html">Manifeste</a>
+        <a href="../a-propos.html">Comment ça marche</a>
+        <a href="../contact.html">Contact</a>
+      </div>
+      <div>
+        <h4>Paiement sécurisé via Gumroad</h4>
+        <div class="payment-icons">
+          <span class="pay-badge">Visa</span>
+          <span class="pay-badge">Mastercard</span>
+          <span class="pay-badge">MoMo</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Intergalactic Writter Shop. Tous droits réservés.</p>
+      <p class="small-muted">Site en construction progressive.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

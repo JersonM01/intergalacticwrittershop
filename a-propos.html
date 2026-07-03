@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Comment ça marche — Intergalactic Writter Shop</title>
+<meta name="description" content="Comment fonctionne Intergalactic Writter Shop : extrait gratuit, puis achat du livre complet. Découvrez le fonctionnement du site.">
+<link rel="icon" href="assets/images/logo-circular.png">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/2.44.0/tabler-icons.min.css">
+<style>
+.steps{display:flex; flex-direction:column; gap:0;}
+.step{display:grid; grid-template-columns:56px 1fr; gap:20px; padding:28px 0; border-top:0.5px solid var(--border);}
+.step:last-child{border-bottom:0.5px solid var(--border);}
+.step-num{width:40px; height:40px; border-radius:50%; border:1px solid var(--gold); color:var(--gold-light); display:flex; align-items:center; justify-content:center; font-family:var(--font-display); font-style:italic; font-size:1.1rem;}
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="wrap">
+    <a href="index.html" class="brand"><img src="assets/images/logo-compact.png" alt="Intergalactic Writter Shop"></a>
+    <ul class="nav-links">
+      <li><a href="collections/celestial.html">Collections</a></li>
+      <li><a href="musee-spatial.html">Musée spatial</a></li>
+      <li><a href="collections/fossile.html">Fossile de l'humanité</a></li>
+      <li><a href="manifeste.html">Manifeste</a></li>
+      <li><a href="a-propos.html">À propos</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <button class="btn-ghost" type="button" title="Bientôt disponible">Obtenir mon token</button>
+      <button class="btn-ghost" type="button" title="Bientôt disponible">Download roadmap</button>
+    </div>
+    <button class="nav-toggle" aria-label="Ouvrir le menu"><i class="ti ti-menu-2"></i></button>
+  </div>
+</nav>
+
+<header class="collection-hero">
+  <div class="wrap">
+    <span class="eyebrow">Comment ça marche</span>
+    <h1 style="margin-top:14px; font-size:clamp(2.2rem,4.5vw,3.4rem);">D'abord la connaissance, ensuite l'artefact</h1>
+    <p style="max-width:600px; margin-top:16px;">Notre fonctionnement repose sur une idée simple : personne ne devrait payer pour découvrir si un livre peut vraiment lui apporter quelque chose.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap" style="max-width:760px;">
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <div><h3>Explorez la galaxie</h3><p style="margin-top:8px;">Depuis l'accueil, naviguez entre les collections comme on navigue entre les planètes — chacune a sa propre atmosphère.</p></div>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <div><h3>Lisez gratuitement</h3><p style="margin-top:8px;">Sur chaque fiche livre, feuilletez les 3 à 4 premières pages — celles qui, à elles seules, peuvent déjà transformer votre lecture.</p></div>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <div><h3>Laissez votre email</h3><p style="margin-top:8px;">Nous vous envoyons l'extrait et, ensuite, la proposition d'acquérir le livre complet.</p></div>
+      </div>
+      <div class="step">
+        <div class="step-num">4</div>
+        <div><h3>Achetez en toute sécurité</h3><p style="margin-top:8px;">Le paiement passe par Gumroad, qui accepte les cartes Visa et Mastercard partout dans le monde.</p></div>
+      </div>
+      <div class="step">
+        <div class="step-num">5</div>
+        <div><h3>Contribuez si vous le souhaitez</h3><p style="margin-top:8px;">Auteur ou simple témoin de notre époque, soumettez votre manuscrit ou votre artefact au Fossile de l'Humanité.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <img src="assets/images/logo-compact.png" alt="Intergalactic Writter Shop" style="height:44px; margin-bottom:14px;">
+        <p class="small-muted">Building the first space library.</p>
+      </div>
+      <div>
+        <h4>Collections</h4>
+        <a href="collections/fossile.html">Fossile de l'humanité</a>
+        <a href="collections/celestial.html">Celestial</a>
+        <a href="collections/jeunesse.html">Jeunesse</a>
+        <a href="collections/education.html">Éducation adultes</a>
+        <a href="collections/starter.html">Starter</a>
+      </div>
+      <div>
+        <h4>Le projet</h4>
+        <a href="musee-spatial.html">Musée spatial</a>
+        <a href="manifeste.html">Manifeste</a>
+        <a href="a-propos.html">Comment ça marche</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h4>Paiement sécurisé via Gumroad</h4>
+        <div class="payment-icons">
+          <span class="pay-badge">Visa</span>
+          <span class="pay-badge">Mastercard</span>
+          <span class="pay-badge">MoMo</span>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Intergalactic Writter Shop. Tous droits réservés.</p>
+      <p class="small-muted">Site en construction progressive.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
