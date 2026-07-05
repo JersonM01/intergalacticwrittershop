@@ -57,15 +57,15 @@ document.addEventListener('DOMContentLoaded', function(){
 
   // Données de chaque livre : synthèse + Heyzine restent PRIVÉES
   // (jamais écrites dans le HTML). Le lien "buyUrl" reste public.
-  var BOOKS = {
-    "livre-001": {
-      title: "Nom du livre",
-      synthetic: "https://votre-lien-prive.com/synthese.pdf",
-      heyzine: "https://heyzine.com/flip-book/xxxxx.html",
-      buyUrl: "https://gum.co/permalink-du-livre-complet",
-    },
-    // Ajoutez un bloc par livre, avec un id unique (ex: "livre-002")
-  };
+var BOOKS = {
+     "creuset-appel": {
+       title: "Le Creuset de l'Appel",
+       synthetic: "https://drive.google.com/uc?export=download&id=1V4ls5VRkdzXbpPekp_R3kmv2Nxco5y90",
+       heyzine: "https://heyzine.com/flip-book/88783ea284.html",
+       buyUrl: "https://intergalacticwriter.gumroad.com/l/mchczo",
+     },
+     // Ajoutez un bloc par livre, avec un id unique (ex: "livre-002")
+   };
   // ============================
 
   var STORAGE_KEY = "igws_access_key";
