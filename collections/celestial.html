@@ -71,16 +71,21 @@
           </div>
 
           <form data-stub>
-            <div class="field">
-              <label for="email-book1">Recevoir l'extrait gratuit par email</label>
-              <input type="email" id="email-book1" placeholder="votre@email.com" required>
-            </div>
-            <button type="submit" class="btn btn-outline">Recevoir l'extrait</button>
-            <div class="form-success">Merci — l'extrait et l'offre d'achat vous seront envoyés par email.</div>
-          </form>
-
+            <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:12px;">
+  <button type="button"
+          data-book-action="download-synthetic"
+          data-book-id="creuset-appel"
+          class="btn btn-outline">
+    Télécharger la synthèse
+  </button>
+  <button type="button"
+          data-book-action="view-heyzine"
+          data-book-id="creuset-appel"
+          class="btn btn-outline">
+    Feuilleter en ligne
+  </button>
           <div class="buy-row">
-            <span class="price">9,90 €</span>
+            <span class="price">19,9 €</span>
             <a href="https://gumroad.com/l/REMPLACER-PAR-VOTRE-LIEN" target="_blank" rel="noopener" class="btn btn-primary">Acheter le livre complet</a>
           </div>
           <div class="payment-icons" style="margin-top:14px;">
